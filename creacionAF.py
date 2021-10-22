@@ -80,9 +80,9 @@ affin = AF(
     }
 )
 
-# print ('estados:', afsi.estados)
-# print ('alfabeto entrada:', afsi.alfabeto_entrada)
-# print ('estado inicial:', afsi.estado_inicial)
-# print ('estados finales:', afsi.estados_finales)
-# print ('transiciones:', afsi.transiciones)
+print ('estados:', afsi.estados)
+print ('alfabeto entrada:', afsi.alfabeto_entrada)
+print ('estado inicial:', afsi.estado_inicial)
+print ('estados finales:', afsi.estados_finales)
+print ('transiciones:', afsi.transiciones)
 print ('palabra aceptada:', afleer.palabra_aceptada('leer'))
